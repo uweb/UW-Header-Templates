@@ -185,9 +185,6 @@
     background-color: transparent;
     border: none;
   }
-  .uw-thinstrip ul.uw-thin-links li.uw-search button:hover svg {
-    left: 22px;
-  }
   .uw-thinstrip ul.uw-thin-links li.uw-search button svg {
     top: 14px;
     left: 29px;
@@ -200,6 +197,10 @@
     width: 51px;
     height: 45px;
     display: block;
+  }
+  .search-open .uw-thinstrip ul.uw-thin-links li.uw-search button svg {
+    top: -18px;
+    left: 18px;
   }
 }
 @media only screen and (max-width: 767px) {
