@@ -57,6 +57,7 @@
   background: url(../assets/svg/uw-sprite-mini.svg) no-repeat 0 -74px transparent;
 }
 .uw-thinstrip ul.uw-thin-links {
+  float: right;
   margin: 0;
   position: relative;
   z-index: 1;
@@ -64,7 +65,7 @@
   padding: 0;
 }
 .uw-thinstrip ul.uw-thin-links li {
-  float: right;
+  display: inline-block;
   list-style: none;
 }
 .uw-thinstrip ul.uw-thin-links li a,
@@ -93,7 +94,7 @@
 .uw-thinstrip ul.uw-thin-links li button:focus {
   color: #b7a57a;
 }
-.uw-thinstrip ul.uw-thin-links li:first-child a:after {
+.uw-thinstrip ul.uw-thin-links li:last-child a:after {
   display: none;
 }
 .uw-thinstrip ul.uw-thin-links li.uw-search button {
