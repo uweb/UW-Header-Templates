@@ -51,10 +51,11 @@
   z-index: 1;
   font-weight: 700;
   padding: 0;
-}
-.uw-thinstrip ul.uw-thin-links li {
   float: right;
   list-style: none;
+}
+.uw-thinstrip ul.uw-thin-links li {
+  display: inline-block;
 }
 .uw-thinstrip ul.uw-thin-links li a {
   font-family: "Encode Sans Compressed", sans-serif;
@@ -79,7 +80,7 @@
 .uw-thinstrip ul.uw-thin-links li a:focus {
   color: #b7a57a;
 }
-.uw-thinstrip ul.uw-thin-links li:first-child a:after {
+.uw-thinstrip ul.uw-thin-links li:last-child a:after {
   display: none;
 }
 
